@@ -1,16 +1,32 @@
 body {
-  background: #0f172a;
-  color: white;
-  font-family: Arial;
-  max-width: 900px;
-  margin: auto;
-  padding: 40px;
+  background:#0f172a;
+  color:white;
+  font-family:Arial, sans-serif;
+  max-width:900px;
+  margin:auto;
+  padding:40px;
 }
 
-h1 {
-  font-size: 42px;
+header {
+  margin-bottom:60px;
 }
 
-section {
-  margin-top: 40px;
+.tagline {
+  color:#94a3b8;
+}
+
+h2 {
+  margin-top:50px;
+}
+
+.card {
+  background:#1e293b;
+  padding:20px;
+  margin-top:20px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
 }
