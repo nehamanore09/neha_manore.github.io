@@ -209,3 +209,43 @@ padding:28px;
 border-radius:18px;
 box-shadow:0 18px 50px rgba(0,0,0,0.06);
 }
+/* SKILLS TABS (NIKHIL STYLE) */
+.skills-tabs{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:16px;
+margin-bottom:40px;
+}
+
+.tab{
+padding:14px 24px;
+border-radius:30px;
+background:#e2e8f0;
+font-size:14px;
+font-weight:500;
+box-shadow:0 6px 14px rgba(0,0,0,0.05);
+}
+
+.tab.active{
+background:#3b82f6;
+color:white;
+}
+
+/* SKILLS LIST CARDS */
+.skills-list{
+display:flex;
+flex-direction:column;
+gap:16px;
+max-width:900px;
+margin:auto;
+}
+
+.skill-item{
+background:#e2e8f0;
+padding:16px 22px;
+border-radius:30px;
+box-shadow:0 6px 14px rgba(0,0,0,0.04);
+text-align:left;
+}
+
