@@ -273,3 +273,52 @@ grid-template-columns:repeat(2,1fr);
     grid-template-columns: 1fr;
   }
 }
+
+
+.project-buttons {
+  display: flex;
+  gap: 15px;  /* Adds space between buttons */
+  margin-top: 15px;
+}
+
+.github-btn, .details-btn {
+  flex: 1;  /* Equal width */
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.github-btn {
+  background: #24292f;
+  color: white;
+}
+
+.details-btn {
+  background: #0366d6;
+  color: white;
+}
+
+/* Perfect spacing for project cards */
+.project-card {
+  margin-bottom: 40px !important;  /* Space between cards */
+  padding: 25px;                   /* Space INSIDE each card */
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+.project-card {  /* Your main container */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;  /* Space between cards */
+  padding: 20px;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .project-card {
+    margin-bottom: 30px !important;
+    padding: 20px;
+  }
+}
